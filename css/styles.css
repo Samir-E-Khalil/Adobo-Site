@@ -15,10 +15,11 @@
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
-  --red: #dc3545;
+  --red: #d83734;
   --orange: #fd7e14;
   --yellow: #f2b033;
   --green: #168e62;
+  --brown: #573a31;
   --teal: #1abc9c;
   --cyan: #17a2b8;
   --white: #fff;
@@ -3122,13 +3123,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #343a40;
-  border-color: #343a40;
+  color: var(--green);
+  border-color: var(--green);
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: var(--green);
+  border-color: var(--green);
 }
 .btn-outline-dark:focus,
 .btn-outline-dark.focus {
@@ -10225,6 +10226,10 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-green {
+  color: var(--green) !important;
+}
+
 .text-primary {
   color: #1abc9c !important;
 }
@@ -10590,7 +10595,6 @@ a.text-dark:focus {
   width: 13.5rem;
   position: relative;
   z-index: -100px;
-  
   transform: translateY(49px);
 }
 
@@ -10607,6 +10611,7 @@ a.text-dark:focus {
     font-size: 1.5rem;
   }
 }
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -10654,9 +10659,10 @@ a.text-dark:focus {
   opacity: 1;
 }
 
+
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 2px solid #fff;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -10693,7 +10699,7 @@ a.text-dark:focus {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #1abc9c;
+  color: #fff;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -10703,8 +10709,8 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: var(--yellow);
-  color: #fff;
+  /* background-color: var(--yellow); */
+  color: var(--green);
 }
 
 .copyright {
@@ -10713,4 +10719,39 @@ form .row:first-child .floating-label-form-group {
 
 .app-link {
   width: 15rem;
+}
+
+.red-bg {
+  background: var(--red);
+}
+
+.green-bg {
+  background: var(--green);
+}
+
+.brown-bg {
+  background: var(--brown);
+}
+
+.yellow-bg {
+  background: var(--yellow);
+}
+
+.black-bg {
+  background: #323232;
+}
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: red;
 }
