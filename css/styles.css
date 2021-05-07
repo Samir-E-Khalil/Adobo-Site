@@ -10662,7 +10662,7 @@ a.text-dark:focus {
 
 .floating-label-form-group {
   position: relative;
-  border-bottom: 2px solid #fff;
+  border-bottom: 1px solid var(--green);
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
