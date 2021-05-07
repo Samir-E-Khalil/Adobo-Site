@@ -10226,6 +10226,12 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+
+.text-beige {
+  color: #f0d9a5 !important;
+}
+
+
 .text-green {
   color: var(--green) !important;
 }
@@ -10485,6 +10491,14 @@ a.text-dark:focus {
 }
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff !important;
+}
+
+
+.divider-custom.divider-beige .divider-custom-line {
+  background-color: #f0d9a5;
+}
+.divider-custom.divider-beige .divider-custom-icon {
+  color: #f0d9a5 !important;
 }
 
 .btn-xl {
