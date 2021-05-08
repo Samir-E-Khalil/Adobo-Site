@@ -10599,15 +10599,15 @@ a.text-dark:focus {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
-  transform: translateY(-49px);
+  transform: translateY(-50px);
 }
 
 .masthead .masthead-divider {
-  transform: translateY(-49px);
+  transform: translateY(-50px);
 }
 
 .masthead .masthead-subheading {
-  transform: translateY(-49px);
+  transform: translateY(-45px);
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
@@ -10726,7 +10726,7 @@ form .row:first-child .floating-label-form-group {
 
 .footer {
   /* max-height: 85vh; */
-  padding-top: 2.5rem;
+  padding-top: 2.75rem;
   padding-bottom: 2.5rem;
   /* background-color: var(--yellow); */
   color: var(--green);
