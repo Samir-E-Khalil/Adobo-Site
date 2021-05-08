@@ -10594,8 +10594,11 @@ a.text-dark:focus {
   position: relative;
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-  min-height: 100vh;
   overflow: hidden;
+}
+
+.masthead .container {
+  margin-bottom: 15rem;
 }
 .masthead .masthead-heading {
   position: relative;
