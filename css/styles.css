@@ -10591,29 +10591,31 @@ a.text-dark:focus {
   }
 }
 .masthead {
+  position: relative;
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
   height: 100vh;
   overflow: hidden;
 }
 .masthead .masthead-heading {
+  position: relative;
   font-size: 2.75rem;
   line-height: 2.75rem;
-  transform: translateY(-50px);
+  transform: translateY(200px);
 }
 
 .masthead .masthead-divider {
-  transform: translateY(-50px);
+  transform: translateY(200px);
 }
 
 .masthead .masthead-subheading {
-  transform: translateY(-45px);
+  transform: translateY(200px);
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
   width: 13.5rem;
-  position: relative;
-  /* z-index: -300px; */
+  position: absolute;
+  z-index: -300px;
   /* transform: translateY(49px); */
 }
 
@@ -10774,8 +10776,4 @@ form .row:first-child .floating-label-form-group {
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: red;
-}
-
-.parallax-logo {
-  position: absolute;
 }
