@@ -16,19 +16,19 @@ $(window).on("resize load", function () {
     // change nav-bar color
     $("#mainNav").removeClass("green-bg");
     $("#mainNav").addClass("yellow-bg");
-
-    //----------------do parallax FX----------------------------------
-
-    if ($(window).width() > 768) {
-      function parallax(element, distance, speed) {
-        const item = document.querySelector(element);
-        item.style.transform = `translateY(${distance * speed}px)`;
-      }
-
-      window.addEventListener("scroll", function () {
-        parallax(".parallax", window.scrollY, 0.6);
-        parallax(".parallax-logo", window.scrollY, 0.85);
-      });
-    }
   }
 });
+
+//----------------parallax FX----------------------------------
+
+if ($(window).width() > 768) {
+  function parallax(element, distance, speed) {
+    const item = document.querySelector(element);
+    item.style.transform = `translateY(${distance * speed}px)`;
+  }
+
+  window.addEventListener("scroll", function () {
+    parallax(".parallax", window.scrollY, 0.6);
+    parallax(".parallax-logo", window.scrollY, 0.85);
+  });
+}
