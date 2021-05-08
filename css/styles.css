@@ -10226,11 +10226,9 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
-
 .text-beige {
   color: #f0d9a5 !important;
 }
-
 
 .text-green {
   color: var(--green) !important;
@@ -10493,7 +10491,6 @@ a.text-dark:focus {
   color: #fff !important;
 }
 
-
 .divider-custom.divider-beige .divider-custom-line {
   background-color: #f0d9a5;
 }
@@ -10601,15 +10598,22 @@ a.text-dark:focus {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  transform: translateY(-49px);
 }
+
+.masthead .masthead-divider {
+  transform: translateY(-49px);
+}
+
 .masthead .masthead-subheading {
+  transform: translateY(-49px);
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
   width: 13.5rem;
   position: relative;
-  z-index: -100px;
-  transform: translateY(49px);
+  z-index: -300px;
+  /* transform: translateY(49px); */
 }
 
 @media (min-width: 992px) {
@@ -10672,7 +10676,6 @@ a.text-dark:focus {
   color: #1abc9c;
   opacity: 1;
 }
-
 
 .floating-label-form-group {
   position: relative;
@@ -10755,17 +10758,18 @@ form .row:first-child .floating-label-form-group {
   background: #323232;
 }
 
-
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: red;
   opacity: 1; /* Firefox */
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: red;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder {
+  /* Microsoft Edge */
   color: red;
 }
