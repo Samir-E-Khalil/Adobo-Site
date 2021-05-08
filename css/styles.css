@@ -10551,7 +10551,7 @@ a.text-dark:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: var(--green);
+  color: var(--yellow);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10594,7 +10594,7 @@ a.text-dark:focus {
   position: relative;
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
 }
 .masthead .masthead-heading {
@@ -10728,8 +10728,8 @@ form .row:first-child .floating-label-form-group {
 
 .footer {
   /* max-height: 85vh; */
-  padding-top: 3rem;
-  padding-bottom: 2.5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
   /* background-color: var(--yellow); */
   color: var(--green);
 }
