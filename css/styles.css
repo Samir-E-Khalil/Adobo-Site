@@ -10593,6 +10593,7 @@ a.text-dark:focus {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  height: 100vh;
   overflow: hidden;
 }
 .masthead .masthead-heading {
@@ -10612,7 +10613,7 @@ a.text-dark:focus {
 .masthead .masthead-avatar {
   width: 13.5rem;
   position: relative;
-  z-index: -300px;
+  /* z-index: -300px; */
   /* transform: translateY(49px); */
 }
 
@@ -10724,8 +10725,9 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  /* max-height: 85vh; */
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   /* background-color: var(--yellow); */
   color: var(--green);
 }

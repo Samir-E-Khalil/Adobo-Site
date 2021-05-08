@@ -87,5 +87,6 @@ function parallax(element, distance, speed) {
 }
 
 window.addEventListener("scroll", function () {
-  parallax(".parallax", window.scrollY, 0.5);
+  parallax(".parallax", window.scrollY, 0.52);
+  parallax(".parallax-logo", window.scrollY, 0.85);
 });
