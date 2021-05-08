@@ -10729,7 +10729,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   /* max-height: 85vh; */
   padding-top: 3rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2.5rem;
   /* background-color: var(--yellow); */
   color: var(--green);
 }
