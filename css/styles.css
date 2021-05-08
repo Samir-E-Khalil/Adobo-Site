@@ -10616,6 +10616,7 @@ a.text-dark:focus {
   width: 13.5rem;
   position: absolute;
   z-index: -300px;
+  transition: ease;
   /* transform: translateY(49px); */
 }
 
