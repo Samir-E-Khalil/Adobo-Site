@@ -10775,3 +10775,7 @@ form .row:first-child .floating-label-form-group {
   /* Microsoft Edge */
   color: red;
 }
+
+.parallax-logo {
+  position: absolute;
+}
