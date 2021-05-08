@@ -10601,20 +10601,20 @@ a.text-dark:focus {
   position: relative;
   font-size: 2.75rem;
   line-height: 2.75rem;
-  transform: translateY(200px);
+  /* transform: translateY(200px); */
 }
 
 .masthead .masthead-divider {
-  transform: translateY(200px);
+  /* transform: translateY(200px); */
 }
 
 .masthead .masthead-subheading {
-  transform: translateY(200px);
+  /* transform: translateY(200px); */
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
   width: 13.5rem;
-  position: absolute;
+  /* position: absolute; */
   z-index: -300px;
   /* transform: translateY(49px); */
 }
