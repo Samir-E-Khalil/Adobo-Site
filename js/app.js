@@ -1,8 +1,13 @@
 //----------------check if on mobile--------------------------
 $(window).on("resize load", function () {
   if ($(window).width() < 768) {
+    //remove parallax fx
     $("#parallax-logo").removeClass("parallax-logo");
     $("#parallax").removeClass("parallax");
+
+    // change nav-bar color
+    $("#mainNav").removeClass("yellow-bg");
+    $("#mainNav").addClass("green-bg");
   } else {
     $("#parallax-logo").addClass("parallax-logo");
     $("#parallax").addClass("parallax");
