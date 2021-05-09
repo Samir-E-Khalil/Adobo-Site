@@ -1,9 +1,26 @@
 let isMobile = false;
 
+function resetTransform(element) {
+  const item = document.querySelector(element);
+  item.style.transform = `translateY(0px)`;
+}
+
+function resetFade(element) {
+  const item = document.querySelector(element);
+  item.style.opacity = `1`;
+}
+
 // remove paralax fx on mobile screen, add it if on computer
 $(window).on("resize load", function () {
   if ($(window).width() <= 768) {
     isMobile = true;
+
+    // reset paralax element transform
+    resetTransform("#parallax-logo");
+    resetTransform("#parallax");
+
+    // reset opacity of fading element
+    resetFade("#fading");
 
     // remove parallax fx
     $("#parallax-logo").removeClass("parallax-logo");
