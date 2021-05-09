@@ -35,6 +35,8 @@ if ($(window).width() > 768) {
     if (isMobile === false) {
       parallax(".parallax", window.scrollY, 0.6);
       parallax(".parallax-logo", window.scrollY, 0.85);
+    } else {
+      return;
     }
   });
 }
