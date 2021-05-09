@@ -19,7 +19,7 @@
         anime({
           targets: "html, body",
           scrollTop: target.offset().top - 72,
-          duration: 1000,
+          duration: 2000,
           easing: "easeInOutExpo",
         });
         return false;
