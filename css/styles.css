@@ -10641,10 +10641,10 @@ a.text-dark:focus {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
+  max-width: 18rem;
+  border-radius: 0.6rem;
   overflow: hidden;
-  box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
