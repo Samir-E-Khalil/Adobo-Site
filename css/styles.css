@@ -10644,6 +10644,7 @@ a.text-dark:focus {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
