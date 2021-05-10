@@ -3092,13 +3092,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #f0d9a5;
+  border-color: #f0d9a5;
 }
 .btn-outline-light:hover {
   color: var(--green);
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background-color: #f0d9a5;
+  border-color: #f0d9a5;
 }
 .btn-outline-light:focus,
 .btn-outline-light.focus {
@@ -3106,15 +3106,15 @@ fieldset:disabled a.btn {
 }
 .btn-outline-light.disabled,
 .btn-outline-light:disabled {
-  color: #f8f9fa;
+  color: #f0d9a5;
   background-color: transparent;
 }
 .btn-outline-light:not(:disabled):not(.disabled):active,
 .btn-outline-light:not(:disabled):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
   color: var(--green);
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background-color: #f0d9a5;
+  border-color: #f0d9a5;
 }
 .btn-outline-light:not(:disabled):not(.disabled):active:focus,
 .btn-outline-light:not(:disabled):not(.disabled).active:focus,
@@ -10599,7 +10599,7 @@ a.text-dark:focus {
 }
 
 .masthead .container {
-  margin-bottom: 12rem;
+  margin-bottom: 13rem;
 }
 .masthead .masthead-heading {
   position: relative;
@@ -10641,8 +10641,8 @@ a.text-dark:focus {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 18rem;
-  border-radius: 0.6rem;
+  max-width: 15rem;
+  border-radius: 22.37%;
   overflow: hidden;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
