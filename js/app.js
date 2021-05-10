@@ -61,7 +61,7 @@ if ($(window).width() > 768) {
   window.addEventListener("scroll", function () {
     if (isMobile === false) {
       parallax(".parallax", window.scrollY, 0.55);
-      parallax(".parallax-logo", window.scrollY, 0.85);
+      parallax(".parallax-logo", window.scrollY, 0.81);
       fade(".fading", window.scrollY, 0.005);
     } else {
       return;

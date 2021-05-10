@@ -10593,13 +10593,13 @@ a.text-dark:focus {
 .masthead {
   position: relative;
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
-  min-height: 100vh;
+  padding-bottom: 10rem;
+  /* min-height: 100vh; */
   overflow: hidden;
 }
 
 .masthead .container {
-  margin-bottom: 10rem;
+  margin-bottom: 13rem;
 }
 .masthead .masthead-heading {
   position: relative;
