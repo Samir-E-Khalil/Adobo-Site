@@ -10642,7 +10642,7 @@ a.text-dark:focus {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 15rem;
+  max-width: 25rem;
   border-radius: 22.37%;
   overflow: hidden;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
@@ -10764,7 +10764,7 @@ form .row:first-child .floating-label-form-group {
   background: var(--yellow);
 }
 
-.beige-bg{
+.beige-bg {
   background-color: #f0d9a5;
 }
 
