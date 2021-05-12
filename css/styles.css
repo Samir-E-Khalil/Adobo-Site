@@ -81,7 +81,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #f0d9a5;
+  /* background-color: #f0d9a5; */
+  background-color: var(--yellow);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10761,6 +10762,10 @@ form .row:first-child .floating-label-form-group {
 
 .yellow-bg {
   background: var(--yellow);
+}
+
+.beige-bg{
+  background-color: #f0d9a5;
 }
 
 .black-bg {
