@@ -26,9 +26,9 @@ $(window).on("resize load", function () {
     $("#parallax-logo").removeClass("parallax-logo");
     $("#parallax").removeClass("parallax");
 
-    // change nav-bar color
-    $("#mainNav").removeClass("yellow-bg");
-    $("#mainNav").addClass("green-bg");
+    // // change nav-bar color
+    // $("#mainNav").removeClass("yellow-bg");
+    // $("#mainNav").addClass("green-bg");
   } else {
     isMobile = false;
 
@@ -36,9 +36,9 @@ $(window).on("resize load", function () {
     $("#parallax-logo").addClass("parallax-logo");
     $("#parallax").addClass("parallax");
 
-    // change nav-bar color
-    $("#mainNav").removeClass("green-bg");
-    $("#mainNav").addClass("yellow-bg");
+    // // change nav-bar color
+    // $("#mainNav").removeClass("green-bg");
+    // $("#mainNav").addClass("yellow-bg");
   }
 });
 

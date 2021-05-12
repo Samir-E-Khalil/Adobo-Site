@@ -10548,10 +10548,10 @@ a.text-dark:focus {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: var(--green);
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: var(--yellow);
+  color: var(--green);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
