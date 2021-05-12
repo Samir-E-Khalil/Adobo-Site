@@ -10651,6 +10651,8 @@ a.text-dark:focus {
   position: absolute;
   top: 0;
   left: 0;
+
+  border-radius: 22.37%;
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: #f2af33f1;
