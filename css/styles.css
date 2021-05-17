@@ -10614,7 +10614,7 @@ a.text-dark:focus {
   font-size: 3rem;
   line-height: 3rem;
   transform: translateY(200px);
-  text-shadow: 4px 4px 0px rgb(0 0 0 / 5%);
+  /* text-shadow: 4px 4px 0px rgb(0 0 0 / 5%); */
 }
 
 .masthead .masthead-divider {
