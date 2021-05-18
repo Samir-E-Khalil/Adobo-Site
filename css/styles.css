@@ -10542,6 +10542,16 @@ a.text-dark:focus {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
+#mainNav .navbar-bg {
+  height: 100%;
+  position: absolute;
+  background-size: 500px;
+  opacity: 0.05;
+  background-image: url("/assets/img/pattern.png");
+  width: 100%;
+  left: 0%;
+  z-index: -200;
+}
 #mainNav .navbar-brand {
   color: #fff;
 }
@@ -10630,6 +10640,25 @@ a.text-dark:focus {
   position: absolute;
   z-index: -300px;
   /* transform: translateY(49px); */
+}
+
+.masthead .masthead-bg {
+  z-index: -300;
+  position: fixed;
+  top: 0%;
+  background-repeat: repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: 500px;
+  opacity: 0.05;
+  background-image: url("/assets/img/pattern.png");
+}
+
+.reg-symbol {
+  position: absolute;
+  font-size: 0.8rem;
+  top: -8px;
+  font-weight: normal;
 }
 
 @media (min-width: 992px) {
@@ -10747,12 +10776,9 @@ form .row:first-child .floating-label-form-group {
   padding-top: 3.5rem;
   padding-bottom: 2rem;
   /* background-color: var(--yellow); */
-  color: var(--green);
+  /* color: var(--green); */
 }
 
-.copyright {
-  background-color: var(--green);
-}
 
 .app-link {
   width: 15rem;
