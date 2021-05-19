@@ -25,7 +25,6 @@ $(window).on("resize load", function () {
     // remove parallax fx
     $("#parallax-logo").removeClass("parallax-logo");
     $("#parallax").removeClass("parallax");
-
   } else {
     isMobile = false;
 

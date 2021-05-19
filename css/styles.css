@@ -10800,6 +10800,15 @@ form .row:first-child .floating-label-form-group {
   background: var(--yellow);
 }
 
+.striped-bg{  
+  
+  background: linear-gradient(135deg, rgba(204, 141, 23, 0.05) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, rgba(204, 141, 23, 0.05)  25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, rgba(204, 141, 23, 0.05)  25%, transparent 25%),
+    linear-gradient(45deg, rgba(204, 141, 23, 0.05) 25%, transparent 25%);
+  background-size: 100px 100px;
+}
+
 .beige-bg {
   background-color: #f0d9a5;
 }
