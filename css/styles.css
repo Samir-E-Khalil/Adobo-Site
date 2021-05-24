@@ -10783,7 +10783,6 @@ form .row:first-child .floating-label-form-group {
   /* color: var(--green); */
 }
 
-
 .app-link {
   width: 15rem;
 }
@@ -10804,13 +10803,24 @@ form .row:first-child .floating-label-form-group {
   background: var(--yellow);
 }
 
-.striped-bg{  
-  
-  background: linear-gradient(135deg, rgba(204, 141, 23, 0.09) 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, rgba(204, 141, 23, 0.09)  25%, transparent 25%) -50px 0,
-    linear-gradient(315deg, rgba(204, 141, 23, 0.09)  25%, transparent 25%),
+.striped-bg {
+  background: linear-gradient(
+        135deg,
+        rgba(204, 141, 23, 0.09) 25%,
+        transparent 25%
+      ) -50px 0,
+    linear-gradient(225deg, rgba(204, 141, 23, 0.09) 25%, transparent 25%) -50px
+      0,
+    linear-gradient(315deg, rgba(204, 141, 23, 0.09) 25%, transparent 25%),
     linear-gradient(45deg, rgba(204, 141, 23, 0.09) 25%, transparent 25%);
   background-size: 100px 100px;
+}
+
+.dotted-bg {
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image: radial-gradient(#19a270 1.55px, var(--green) 1.55px);
+  background-size: 31px 31px;
 }
 
 .beige-bg {
