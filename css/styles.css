@@ -10808,11 +10808,11 @@ form .row:first-child .floating-label-form-group {
         135deg,
         rgba(204, 141, 23, 0.09) 25%,
         transparent 25%
-      ) -50px 0,
+      ) -50px 0 fixed,
     linear-gradient(225deg, rgba(204, 141, 23, 0.09) 25%, transparent 25%) -50px
-      0,
-    linear-gradient(315deg, rgba(204, 141, 23, 0.09) 25%, transparent 25%),
-    linear-gradient(45deg, rgba(204, 141, 23, 0.09) 25%, transparent 25%);
+      0 fixed,
+    linear-gradient(315deg, rgba(204, 141, 23, 0.09) 25%, transparent 25%) fixed,
+    linear-gradient(45deg, rgba(204, 141, 23, 0.09) 25%, transparent 25%)  fixed;
   background-size: 100px 100px;
 }
 
