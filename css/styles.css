@@ -10793,6 +10793,7 @@ form .row:first-child .floating-label-form-group {
 
 .green-bg {
   background: var(--green);
+  /* box-shadow: 0px -10px 20px 10px rgba(0, 0, 0, 0.2); */
 }
 
 .brown-bg {
@@ -10812,7 +10813,7 @@ form .row:first-child .floating-label-form-group {
     linear-gradient(225deg, rgba(204, 141, 23, 0.05) 25%, transparent 25%) -50px
       0 fixed,
     linear-gradient(315deg, rgba(204, 141, 23, 0.05) 25%, transparent 25%) fixed,
-    linear-gradient(45deg, rgba(204, 141, 23, 0.05) 25%, transparent 25%)  fixed;
+    linear-gradient(45deg, rgba(204, 141, 23, 0.05) 25%, transparent 25%) fixed;
   background-size: 100px 100px;
 }
 
@@ -10825,6 +10826,12 @@ form .row:first-child .floating-label-form-group {
 
 .beige-bg {
   background-color: #f0d9a5;
+
+  box-shadow: inset 0px 28px 10px -20px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-bottom {
+  box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.3);
 }
 
 .black-bg {
